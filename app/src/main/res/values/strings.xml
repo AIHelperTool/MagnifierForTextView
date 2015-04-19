@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Magnifier</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="test_word">Nevertheless, when I opened the window one morning, to my amazement, the tree was almost bare beyond recognition as a result of the storm ravages the night before. </string>
+</resources>
