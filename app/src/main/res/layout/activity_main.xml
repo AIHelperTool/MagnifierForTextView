@@ -10,6 +10,6 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:layout_gravity="center_vertical"
-        android:text="@string/test_word"/>
+        android:textSize="18sp"/>
 
 </FrameLayout>
