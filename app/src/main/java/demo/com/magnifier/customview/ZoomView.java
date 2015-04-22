@@ -108,13 +108,15 @@ public class ZoomView extends TextView {
             @Override
             public boolean onTouch(View widget, MotionEvent m) {
                 Log.d("TouchableSpan", "touch word:" + mWord);
+                Toast.makeText(widget.getContext(), mWord, Toast.LENGTH_SHORT)
+                        .show();
                 return true;
             }
 
             @Override
             public void updateDrawState(TextPaint ds) {
-                //ds.setUnderlineText(false);
-                //ds.setAntiAlias(true);
+                ds.setUnderlineText(false);
+                ds.setAntiAlias(true);
             }
         };
     }
